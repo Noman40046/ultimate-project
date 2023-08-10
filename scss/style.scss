@@ -5,8 +5,7 @@ body
     margin: 0;
     background-color: #000000!important;
     font-family: 'Tektur', cursive !important;
-    overflow-x: hidden;
-    
+    overflow-x: hidden; 
 }
 .bottom-bar
 {
@@ -19,7 +18,8 @@ body
     padding: 10px;
     margin-bottom: 70px;
 }
-.icon{
+.icon
+{
     font-size: 1.5em;
     padding: .5em;
     margin: 1.7em;
@@ -287,11 +287,6 @@ body
 
 
 
-
-
-
-
-
 /* WORK STAR HERE--------------------- */
 .work
 {
@@ -310,8 +305,6 @@ body
     font-weight: 300!important;
     text-align: center;
     margin-bottom: 1.5em;
-
- 
 }
 .work-elements
 {
@@ -763,6 +756,7 @@ body
             align-items: center;
             justify-content: center;
             background-position: center center;
+            background-attachment: fixed;
         
         }
 
