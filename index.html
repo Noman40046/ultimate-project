@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- bootstrap------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- font--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Bungee+Spice&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,800;0,1000;1,400;1,500;1,600;1,800&family=Great+Vibes&family=Hind+Siliguri:wght@300;400;500;600;700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,400;1,500;1,700;1,800;1,900&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;0,1000;1,300;1,400;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,500;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Rubik+Pixels&family=Tektur:wght@600;700;800;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,300;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- favicon---- -->
+    <link rel="shortcut icon" href="/images/fav.png" type="image/x-icon">
+    <title>App Presentation Website</title>
+</head>
+<body>
+
+    <!-- navigation bar  start here------------------ -->
+    <div class="bottom-bar">
+
+        <!-- home-icon------------ -->
+        <ion-icon name="home-outline" class="icon" onclick="change(this)">
+        </ion-icon>
+
+        <!-- about-us-icon------------ -->
+        <ion-icon name="accessibility-outline" class="icon" onclick="change(this)"></ion-icon>
+        
+        
+
+        <!-- feature-icon------------ -->
+        <ion-icon name="apps-outline" class="icon" onclick="change(this)"></ion-icon>
+
+        <!-- convenience-icon------------ -->
+        <ion-icon name="medical-outline" class="icon" onclick="change(this)"></ion-icon>
+
+        <!-- testimonial-icon------------ -->
+        <ion-icon name="people-circle-outline" class="icon" onclick="change(this)"></ion-icon>
+
+        <!-- contact-icon------------ -->
+        <ion-icon name="call-outline"  class="icon" onclick="change(this)"></ion-icon>
+      </div>
+    <!-- navigation bar end here------------------ -->
+
+
+    <!-- about us section start here------------ -->
+    <section>
+        <div class="container about-us">      
+            <div class="row about-elements">
+                <h1 class="about-heading">ABOUT US</h1>
+                <!-- left element------------ -->
+                <div class="col-lg-6 col-md-6 main-element1">
+                    <img class="phone" src="/images/iphone.png" alt="">
+                </div>
+                <!-- right element------------ -->
+                <div class="col-lg-6 col-md-6 main-element2">
+                    <h2 class="main-element2-sologan">
+                        WHERE IMAGINATION MEETS REALITY: OUR APP REDEFINES BOUNDRIES .</h2>
+                    <p class="main-element2-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nam laboriosam sed, omnis non labore possimus dolore eum alias, eaque eos rem optio praesentium explicabo quo molestias unde porro ratione perferendis .</p>
+                    <button class="more-about">MORE ABOUT US</button>
+                </div>        
+            </div>
+        </div>
+    </section>
+    
+    <!-- about us section end here------------ -->
+
+
+
+    <!-- app feature start here--------- -->
+    <section>
+        <div class="container app-feature">       
+            <!-- first thre------- -->
+            <div class="row feature-elements">
+                <h1 class="feature-heading">APP FEATURE</h1>
+                <!--  element1------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="arrow-redo-circle-outline" class="feature-icon"></ion-icon>
+                        <h2 class="feature-icon-name">ACCESS DRIVE</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit ametipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum? </p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>
+                    </div>
+                </div>
+                <!--  element2------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="lock-open-outline" class="feature-icon"></ion-icon>
+                        <h2 class="feature-icon-name">SECURE DATA</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit ametipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum? </p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>   
+                    </div>
+                </div>        
+                <!-- element3------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="chatbubble-ellipses-outline" class="feature-icon"></ion-icon>
+                        <h2 class="feature-icon-name">LIVE CHAT</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit amet ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum?</p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>
+                    </div>
+                </div>        
+           
+    
+            <!-- second three------- -->
+                <!--  element1------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="checkmark-done-outline" class="feature-icon"></ion-icon>                 
+                        <h2 class="feature-icon-name">SIMPLICITY</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit ametipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum? </p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>
+                    </div>
+                </div>
+                <!--  element2------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="speedometer-outline" class="feature-icon"></ion-icon>
+                        <h2 class="feature-icon-name">SPEED</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit ametipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum? </p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>
+                    </div>
+                </div>        
+                <!-- element3------------ -->
+                <div class="col-lg-4 col-md-6 feature-element-all">
+                    <div class="feature-main-element">
+                        <ion-icon name="contract-outline" class="feature-icon"></ion-icon>                  
+                        <h2 class="feature-icon-name">FLEXIBILITY</h2>
+                        <p class="feature-icon-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, commodi?Lorem ipsum dolor sit ametipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nostrum? </p>
+                    <button class="app-feature-btn">MORE ABOUT US</button>
+                    </div>
+                </div> 
+            </div>                  
+        </div>
+    </section>
+    
+    <!-- app feature end here--------- -->
+
+
+
+    <!-- our clints start here--------------- -->
+    <section>
+        <div class="container our-clint">
+            <div class="row our-clint-elements">
+                <h1 class="feature-heading">OUR CLINTS</h1>
+                <div class="col-lg-12">
+                  <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                          <img src="/images/clints/fiftn.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/five.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/fortn.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/four.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/nine.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/one.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/ten.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/three.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twelve.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twensvn.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twnfive.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twnfour.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twnnine.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twnsix.png" class="slide-img" alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="/images/clints/twnty.png" class="slide-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+      
+    </section>
+    <!-- our clints start here--------------- -->
+
+
+
+    <!-- how its work start here----------- -->
+    <section>
+        <div class="row work">
+            <h1 class="work-heading">HOW ITS WORK</h1>
+            <div class="col-lg-12 col-md-12 work-elements">
+                <a href="https://www.youtube.com/watch?v=-unASUgYtVI" target="_blank"> <ion-icon name="play-circle-outline" class="work-icon"></ion-icon></a>             
+            </div>
+        </div>
+    </section>
+
+    <!-- how its work end here----------- -->
+
+
+<!-- convenience start here------------------- -->
+<section>
+    <div class="row convenience">
+        <h1 class="convenience-heading">CONVENIENCE</h1>
+        <div class="col-lg-12 col-md-12 convenience-elements">
+                        
+                <div class="lower">
+                  <!-- first------------ -->
+                  <div class="first-three">
+                    <div class="first">
+                      <div class="inner-first">
+                        <ion-icon name="key-outline" class="convenience-logo"></ion-icon>
+                        <h4>Accessibility</h4>
+                        <p>
+                            Applications make services and information readily accessible from the comfort of your device, eliminating 
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="first">
+                      <div class="inner-first">
+                        <ion-icon name="person-add-outline" class="convenience-logo"></ion-icon>
+                        <h4>Personalization</h4>
+                        <p>
+                            Many applications offer personalized experiences based on user preferences and behavior, tailoring.
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="first">
+                      <div class="inner-first">
+                        <ion-icon name="notifications-outline" class="convenience-logo"></ion-icon>
+                        <h4>Notificationse</h4>
+                        <p>
+                            Applications can provide real-time notifications and updates, keeping users informed about .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- second------------ -->
+                  <div class="second-three">
+                    <div class="second">
+                      <div class="inner-second">
+                        <ion-icon name="tv-outline" class="convenience-logo"></ion-icon>
+                        <h4>Entertainment </h4>
+                        <p>
+                            Gaming, media, and lifestyle applications provide avenues for entertainment and relaxation, helping users.
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="second">
+                      <div class="inner-second">
+                        <ion-icon name="phone-portrait-outline" class="convenience-logo"></ion-icon>
+                        <h4>Remote services</h4>
+                        <p>
+                            Applications enable users to access various services remotely, such as online shopping, banking .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                   <!-- third------------ -->
+                   <div class="third-three">
+                    <div class="third">
+                      <div class="inner-third">
+                        <ion-icon name="radio-outline" class="convenience-logo"></ion-icon>
+                        <h4>Integration</h4>
+                        <p>
+                            Applications can integrate with other services and platforms, making it easier to share information .
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="third">
+                      <div class="inner-third">
+                        <ion-icon name="options-outline" class="convenience-logo"></ion-icon>
+                        <h4>Customization</h4>
+                        <p>
+                            Users can often customize the settings and preferences in applications to align with their specific needs .
+                        </p>
+                      </div>
+                    </div>
+          
+                    <div class="third">
+                      <div class="inner-third">
+                        <ion-icon name="git-compare-outline" class="convenience-logo"></ion-icon>
+                        <h4>Feedback</h4>
+                        <p>
+                            Applications often have feedback mechanisms and customer support options, allowing users to provide input or seek.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+        </div>
+    </div>
+</section>
+<!-- convenience end  here----------->
+
+
+
+    <!-- testimonial start here----------------- -->
+    <section>
+        <div class="container">
+            <div class="row testimonial">
+                <h1 class="testimonial-heading">TESTIMONIAL</h1>
+                <div class="col-lg-2 col-md-6 testimonial-elements ">
+                    <img class="clint-img" src="/images/testimonial/face1.jpg" alt="">
+                    <h3 class="clint-name">ANGEL MARIA</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon>
+                </div>
+                <div class="col-lg-2 col-md-6 testimonial-elements ">
+                     <img class="clint-img" src="/images/testimonial/face2.jpg" alt="">
+                    <h3 class="clint-name">JAMES BELLY</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon>   
+                </div>
+                <div class="col-lg-2 col-md-6 testimonial-elements">
+                     <img class="clint-img" src="/images/testimonial/face3.jpg" alt="">
+                    <h3 class="clint-name">ANDREW MAT</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon> 
+                </div>
+                <div class="col-lg-2 col-md-6 testimonial-elements">
+                     <img class="clint-img" src="/images/testimonial/face4.jpg" alt="">
+                    <h3 class="clint-name">ANGEL DIYANA</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon>  
+                </div>
+                <div class="col-lg-2 col-md-6 testimonial-elements">
+                     <img class="clint-img" src="/images/testimonial/face5.jpg" alt="">
+                    <h3 class="clint-name">LOCAS ANDRE</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon>  
+                </div>
+                <div class="col-lg-2 col-md-6 testimonial-elements">
+                     <img class="clint-img" src="/images/testimonial/face1.jpg" alt="">
+                    <h3 class="clint-name">MARK ANDERS</h3>
+                    <P class="clint-dtail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, earum.</P>
+                    <ion-icon name="logo-facebook" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-snapchat" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-twitter" class="clint-logo"></ion-icon>
+                    <ion-icon name="logo-instagram" class="clint-logo"></ion-icon> 
+                </div>
+            </div>
+        </div>
+       
+    </section>
+  
+    <!-- clints end here----------------- -->
+
+
+
+    <!-- contact section start here-------------------- -->
+    <section>
+      <div class="container">
+        <div class="row contact">
+          <h1 class="contact-heading">CONTACT US</h1>
+          <!-- form----------- -->
+          <div class="col-lg-6 col-md-12 contact-elements1 ">
+            <img class="contact-img" src="/images/contact.png" alt="">               
+          </div>
+          <!-- form----------- -->
+          <div class="col-lg-6 col-md-12 contact-elements2">
+            <div class="contact-elements-all">
+              <input class="inputs-all1" type="text" placeholder="Name">
+            </div>
+            <div class="contact-elements-all">
+              <input class="inputs-all1"  type="email" placeholder="Email">
+            </div>
+            <div class="contact-elements-all">
+              <input class="inputs-all2"  type="text" placeholder="Messege Here_ ">
+            </div>
+            <div class="contact-button">
+              <button class="contact-main-button">SEND MESSEGE</button>
+            </div>               
+          </div>
+      </div>
+      </div>
+  </section>
+    <!-- contact section end here-------------------- -->
+
+
+
+
+    <!-- footer start here--------------- -->
+    <section>
+      <div class="container">
+        <div class="row footer">
+          <!-- form----------- -->
+          <div class="col-lg-12 col-md-12 footer-elements">
+            <hr style="height: 2px;  background-color: rgb(255, 255, 255);">
+            <ion-icon name="mail-outline" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-whatsapp" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-twitter" class="footer-logo"></ion-icon>
+            <ion-icon name="logo-linkedin" class="footer-logo"></ion-icon>     
+            <p>© 2020 Mobirise. All rights reserved.</p>
+            <br>
+          </div>
+      </div>
+      </div>
+  </section>
+    <!-- footer end here--------------- -->
+
+
+    <!-- bootstrap--------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- iconicon---------- -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="main.js"></script>
+</body>
+</html>

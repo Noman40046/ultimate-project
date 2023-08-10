@@ -1,0 +1,862 @@
+
+
+body
+{
+    margin: 0;
+    background-color: #000000!important;
+    font-family: 'Tektur', cursive !important;
+    overflow-x: hidden;
+    
+}
+.bottom-bar
+{
+    background-image: linear-gradient(to bottom, #2d2d2d, #232323, #1a1a1a, #101010, #000000);
+    text-align: center;
+    margin-top: 50px!important;
+    width: 900px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+.icon{
+    font-size: 1.5em;
+    padding: .5em;
+    margin: 1.7em;
+    margin-top: 0;
+    transition: .5s ease-in-out;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    color: #ff3700;
+}
+.active{
+    transform: scale(1.25) translateY(-1em);
+    background: linear-gradient(135deg, #ff3700,#420e00);  
+    border: 3px solid #dcdcdc;
+    color: white;
+}
+
+
+
+/* about-us--------- */
+.about-us
+{
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 30px;
+    
+}
+
+.about-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 1.5em;
+ 
+}
+
+.main-element1
+{
+    text-align: end;
+    
+   
+}
+.phone
+{
+    width: 280px;
+    height: auto;
+    margin-right: 40px;
+}
+.main-element2
+{
+    text-align: start;
+    padding: 80px;
+    
+    
+}
+.main-element2-sologan
+{
+    font-size: 52px;
+    color: #ff3700;
+    padding-right: 20px;
+    
+}
+.main-element2-content
+{
+    color: #ffffff;
+    font-weight: 200!important;
+    font-size: 19px;
+    line-height: 1.5;
+    padding-right: 80px;
+
+
+}
+.more-about
+{
+    padding: 13px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #ff3700;
+    color: white;
+    cursor: pointer;
+}
+.more-about:hover
+{
+    
+    background-color: white;
+    color: #ff3700;
+    transition: .3s ease-in-out;
+}
+
+
+/* app feature------------ */
+
+.app-feature
+{
+   
+    text-align: center;
+    margin: auto;
+    border-radius: 20px; 
+    padding: 50px!important;
+ 
+
+}
+
+.feature-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 1.5em;
+
+}
+
+
+.feature-element-all
+{
+    border-radius: 20px;
+ 
+}
+.feature-main-element
+{
+    padding: 70px;
+    text-align: center;
+
+    
+}
+
+.feature-element-all:hover
+{
+    transition: .3s ease-in-out !important;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;  
+    margin-top: -10px;
+    .feature-icon
+    {
+        background-color: white;
+    }
+    background: linear-gradient(135deg, #bd2900,#530000);  
+
+    .app-feature-btn
+{  
+    background-color: white;
+    color:#ff3700 ;
+    transition: .3s ease-in-out;
+}
+
+    
+}
+
+.feature-icon
+{
+    font-size: 1.5em;
+    padding: .5em;
+    margin-top: 0;
+    transition: .5s ease-in-out;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    color: #ff3700;
+    margin-bottom: 15px;
+
+}
+.feature-icon-name
+{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+.feature-icon-info
+{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+.app-feature-btn
+{
+    padding: 13px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #ff3700;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/* clints---------------------- */
+
+.our-clint
+{
+    background-color: #000000;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 80px;
+}
+
+
+.slider {
+    
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 1140px;
+}
+
+.slider::before, .slider::after {
+    background: linear-gradient(to right, #000000 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 18);
+
+}
+
+.slider .slide-track:hover {
+    animation-play-state: paused;
+}
+
+.slider .slide {
+    height: 150px;
+    width: 250px;
+    text-align: center;
+}
+
+.slide-img
+{
+    width: 140px;
+    height: auto;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+
+
+
+
+
+
+
+/* WORK STAR HERE--------------------- */
+.work
+{
+    background-color: #000000;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 80px;
+   
+
+}
+
+.work-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 1.5em;
+
+ 
+}
+.work-elements
+{
+    
+    height: 40em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.816)),url('../images/work.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+}
+
+.work-icon
+{
+    font-size: 1.5em;
+    padding: .8em;
+    margin: .8em;
+    margin-top: 0;
+    transition: .5s ease-in-out;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    color: #ff3700;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.work-icon:hover
+{
+   background-color: white;
+    transition: .3s ease-in-out;
+    
+}
+
+
+/* testimonial start here------------------ */
+.testimonial
+{
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 70px;
+
+}
+
+.testimonial-elements
+{
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+.testimonial-elements:hover
+{
+    transition: .3s ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;  
+    margin-top: -10px;
+    background: linear-gradient(135deg, #bd2900,#530000);  
+
+    .clint-logo
+{
+  background-color: white;
+
+}  
+    
+}
+.testimonial-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.clint-img
+{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.clint-logo
+{
+    font-size: 1em;
+    padding: .3em;
+    margin: .3em;
+    margin-top: 0;
+    transition: .5s ease-in-out;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    color: #ff3700;
+    text-align: center;
+    cursor: pointer;
+}
+.clint-name
+{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.clint-dtail
+{
+    font-size: 15px;
+    color: rgb(152, 152, 152);
+    margin-bottom: 20px;
+
+}
+
+
+
+/* convenience START HERE---------------------------- */
+.convenience
+{
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 150px;
+
+}
+.convenience-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+
+
+
+
+.servise
+{
+    font-size: 70px;
+}
+
+/* first--------- */
+.first-three
+{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.first,.second,.third
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.395)  5px 5px 15px;  
+    width:  270px;
+    height: 270px;
+    transform: rotate(45deg);
+    color: aliceblue;
+}
+
+.first:hover
+{
+    background: linear-gradient(135deg, #bd2900,#530000); 
+    
+    .convenience-logo
+{
+    
+    margin-top: -10px;
+    background-color: white;
+    transition: .4s ease-in-out;
+    
+
+}
+}
+.second:hover
+{
+    background: linear-gradient(135deg, #bd2900,#530000); 
+    
+   .convenience-logo
+{
+    
+    margin-top: -10px;
+    background-color: white;
+    transition: .4s ease-in-out;
+    
+
+}
+}
+
+.third:hover
+{
+    background: linear-gradient(135deg, #bd2900,#530000); 
+     
+  .convenience-logo
+{
+  
+    margin-top: -10px;
+    background-color: white;
+    transition: .4s ease-in-out;
+    
+
+}
+
+}
+
+.inner-first
+{
+    transform: rotate(-45deg);
+    padding: 10px 30px 20px 40px;
+
+}
+.inner-second
+{
+    transform: rotate(-45deg);
+    padding: 10px 20px 20px 30px;
+
+}
+.inner-third
+{
+    transform: rotate(-45deg);
+    padding: 10px 10px 20px 30px;
+
+}
+
+/* second--------- */
+.second-three
+{  display: flex;
+    gap: 145px;
+    justify-content: center;
+    text-align: center;
+}
+
+.second
+{
+    margin-top: -80px;
+}
+
+
+/* third--------- */
+.third-three
+{   display: flex;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.third
+{
+    margin-top: -80px;
+}
+
+.convenience-logo
+{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    color: #ff3700;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+
+}
+
+
+/* contact start here----- */
+.contact
+{
+    
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px; 
+    margin-bottom: 50px;
+    
+
+}
+.contact-heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 300!important;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputs-all1
+{
+    padding: 25px 70px;
+    border-radius: 20px;
+    background-color: #00000069;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.395)  3px 3px 5px; 
+    border: 1px solid rgb(40, 40, 40);
+  
+
+}
+.inputs-all2
+{
+    padding: 25px 70px 150px;
+    border-radius: 20px;
+    background-color: #00000069;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.395)  3px 3px 5px;  
+    border: 1px solid rgb(40, 40, 40);
+
+
+
+}
+.contact-main-button
+{
+    padding: 13px;
+    border-radius: 20px;
+    background-color: transparent; 
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.395)  3px 3px 5px;  
+    border: 1px solid rgb(40, 40, 40);
+
+
+}
+
+.contact-main-button:hover
+{
+    
+    background-color: white;
+    color: #ff3700;
+    transition: .3s ease-in-out;
+    
+    
+}
+
+.contact-img
+{
+    width: 500px;
+    height: auto;
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+    animation-delay: .3s;
+}
+@keyframes anime{
+    100% {
+
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+         
+        
+    }
+    }
+   /* footer----------------- */
+   .footer-elements
+   {
+    text-align: center;
+   }
+   .footer-logo
+   {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    color: #ff3700;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin: 20px;
+   }
+   .footer-logo:hover
+   {
+   background-color: white;
+   transition: .3s ease-in-out;
+   }
+
+   /* responsive---------- */
+   @media only screen and (max-width: 768px) and (min-width: 0px) 
+    {
+
+        .bottom-bar
+        {
+         
+            width: 330px;
+            
+        }
+        .icon
+        {
+            font-size: 1em;
+            margin: .3em;
+        }
+
+        .main-element2-sologan
+        {
+            font-size: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .main-element2-content
+        {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .more-about
+        {
+            margin: 20px;
+        }
+        .app-feature
+        {
+            padding: 0px!important;
+        }
+
+        .feature-heading
+        {
+            margin-bottom: 50px;
+        }
+
+        .slider
+        {
+            width: 340px;
+        }
+        .feature-element-all
+        {
+            padding: 5px;
+        }
+        .our-clint-elements
+        {
+            margin-top: 50px!important;
+        }
+        
+
+        .work-elements
+        {
+            
+            height: 40em;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover!important;
+            background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.816)),url('../images/work.jpg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center center;
+        
+        }
+
+        .first-three
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .second-three
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .third-three
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+
+
+       
+        .first,.second,.third
+        {
+            transform: rotate(0deg);
+        }
+
+
+        .inner-first,.inner-second,.inner-third
+        {
+            transform: rotate(0deg);
+            padding: 15px;
+
+        }
+
+        .second
+        {
+            margin-top: 50px;
+        }
+        .third
+        {
+            margin-top: 50px;
+        }
+
+
+        .testimonial-elements
+{
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.contact-img
+{
+    width: 300px;
+    height: auto;
+}
+.inputs-all1 
+{
+    padding: 20px 30px;
+}
+.inputs-all2
+{
+    padding: 20px 30px 150px;
+}
+
+.contact-elements1
+{
+    margin-bottom: 50px;
+}
+.footer-logo
+{
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.feature-main-element
+{
+    padding: 40px;
+    text-align: center;
+   
+}
+
+
+    }
