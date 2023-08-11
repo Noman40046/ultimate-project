@@ -18,34 +18,36 @@
 <body>
 
     <!-- navigation bar  start here------------------ -->
-    <div class="bottom-bar">
+    <div class="bottom-bar" id="nav">
 
         <!-- home-icon------------ -->
-        <ion-icon name="home-outline" class="icon" onclick="change(this)">
-        </ion-icon>
+        <a href="#nav"> <ion-icon name="home-outline" class="icon" onclick="change(this)">
+        </ion-icon></a>
+       
 
-        <!-- about-us-icon------------ -->
-        <ion-icon name="accessibility-outline" class="icon" onclick="change(this)"></ion-icon>
-        
+        <!-- about-us-icon------------ -->     
+        <a href="#about">  <ion-icon name="accessibility-outline" class="icon" onclick="change(this)"></ion-icon>  </a>
         
 
-        <!-- feature-icon------------ -->
-        <ion-icon name="apps-outline" class="icon" onclick="change(this)"></ion-icon>
+        <!-- feature-icon------------ -->      
+        <a href="#feature"><ion-icon name="apps-outline" class="icon" onclick="change(this)"></ion-icon></a>
 
         <!-- convenience-icon------------ -->
-        <ion-icon name="medical-outline" class="icon" onclick="change(this)"></ion-icon>
+     
+        <a href="#convenience">   <ion-icon name="medical-outline" class="icon" onclick="change(this)"></ion-icon></a>
 
         <!-- testimonial-icon------------ -->
-        <ion-icon name="people-circle-outline" class="icon" onclick="change(this)"></ion-icon>
+        <a href="#testimonial">  <ion-icon name="people-circle-outline" class="icon" onclick="change(this)"></ion-icon></a>
+      
 
         <!-- contact-icon------------ -->
-        <ion-icon name="call-outline"  class="icon" onclick="change(this)"></ion-icon>
+        <a href="#contact">        <ion-icon name="call-outline"  class="icon" onclick="change(this)"></ion-icon></a>
       </div>
     <!-- navigation bar end here------------------ -->
 
 
     <!-- about us section start here------------ -->
-    <section>
+    <section id="about">
         <div class="container about-us">      
             <div class="row about-elements">
                 <h1 class="about-heading">ABOUT US</h1>
@@ -69,7 +71,7 @@
 
 
     <!-- app feature start here--------- -->
-    <section>
+    <section id="feature">
         <div class="container app-feature">       
             <!-- first thre------- -->
             <div class="row feature-elements">
@@ -140,7 +142,7 @@
 
 
     <!-- our clints start here--------------- -->
-    <section>
+    <section id="clint">
         <div class="container our-clint">
             <div class="row our-clint-elements">
                 <h1 class="feature-heading">OUR CLINTS</h1>
@@ -205,7 +207,7 @@
 
 
     <!-- how its work start here----------- -->
-    <section>
+    <section id="work">
         <div class="row work">
             <h1 class="work-heading">HOW ITS WORK</h1>
             <div class="col-lg-12 col-md-12 work-elements">
@@ -218,7 +220,7 @@
 
 
 <!-- convenience start here------------------- -->
-<section>
+<section id="convenience">
     <div class="row convenience">
         <h1 class="convenience-heading">CONVENIENCE</h1>
         <div class="col-lg-12 col-md-12 convenience-elements">
@@ -321,7 +323,7 @@
 
 
     <!-- testimonial start here----------------- -->
-    <section>
+    <section id="testimonial"> 
         <div class="container">
             <div class="row testimonial">
                 <h1 class="testimonial-heading">TESTIMONIAL</h1>
@@ -389,7 +391,7 @@
 
 
     <!-- contact section start here-------------------- -->
-    <section>
+    <section id="contact">
       <div class="container">
         <div class="row contact">
           <h1 class="contact-heading">CONTACT US</h1>
@@ -421,7 +423,7 @@
 
 
     <!-- footer start here--------------- -->
-    <section>
+    <section id="footer">
       <div class="container">
         <div class="row footer">
           <!-- form----------- -->
